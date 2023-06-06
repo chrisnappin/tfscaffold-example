@@ -1,0 +1,5 @@
+.terraform
+.terraform-version
+.terraform.lock.hcl
+*.tfstate
+/plugin-cache/*
