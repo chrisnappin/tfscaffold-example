@@ -45,6 +45,6 @@ For simplicity this example will run in a single AWS account, using only free ti
 
 For a non-trivial project, look at using AWS Organisations, a hierarchy of separate accounts (e.g. to control dev, test and prod data access) each containing one or more environments, and some suitable service control policies to set some mandatory guard rails about what may or may not be used, and where. Hold the IaC and code artefacts and pipelines in a dedicated account that has permissions and access to provision environments in all other accounts, ideally from scratch.
 
-This can scale up to a single department with several technical teams working in the same manner.
+This can scale up to a single department with several technical teams working on several projects/products/services with the same ways of working.
 
 For large organisations with dedicated InfoSec operations teams, and a large number of technical teams working in several business departments using a range of approaches (so optional guardrails become necessary), look at using AWS Control Tower.
